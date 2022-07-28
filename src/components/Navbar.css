@@ -1,0 +1,60 @@
+nav{
+    margin-top: 2vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #383838;
+    border-bottom: 2px solid whitesmoke;
+    border-top: 2px solid whitesmoke;
+    height: 15vw;
+    max-height: 175px;
+    width: 100%;
+}
+
+nav > div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+
+nav > div.profile{
+    max-width: 40%;
+}
+
+nav > div.options > p{
+    border-left: 1px solid whitesmoke;
+    width: 60%;
+}
+
+nav > div > p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size:calc(25px + 1vw);
+    height: 100%;
+    overflow: hidden;
+}
+
+nav > div > p:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+nav > div > p.name{
+    font-size:calc(30px + 1vw);
+}
+
+nav > div > img{
+    height: auto;
+    max-height: 90%;
+    width: 40%;
+    max-width: fit-content;
+    padding: 2px;
+    border: 1px solid whitesmoke;
+    border-radius: 5px;
+}
+
