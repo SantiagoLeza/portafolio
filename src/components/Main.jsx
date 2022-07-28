@@ -1,6 +1,6 @@
 import React from 'react'
 import Curriculum from './Curriculum'
-import Github from './Github'
+import Github from './Github/Github'
 import './Main.css'
 import Profile from './Profile'
 
