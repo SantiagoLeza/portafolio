@@ -1,6 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react'
 import ListRepositories from './ListRepositories'
 import ProfileInfo from './ProfileInfo'
+import './Github.css'
 
 function Github() {
 
@@ -11,15 +12,11 @@ function Github() {
       .then(response => response.json())
       .then(data => {
         setProfileData(data);
-      }
-      )
+      })
   }, [setProfileData])
 
-  
-
   return (
-    <div>
-      {console.log(profileData)}
+    <div className='github'>
       <ProfileInfo profile={profileData} />
       <ListRepositories />
     </div>

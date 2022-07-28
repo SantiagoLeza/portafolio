@@ -8,7 +8,7 @@ function App() {
   const [tab, setTab] = useState('profile');
   
   return (
-    <div>
+    <div className='app'>
       <Navbar tab={tab} setTab={setTab} />
       <Main tab={tab} setTab={setTab} />
     </div>
