@@ -28,7 +28,13 @@ function Github() {
   return (
     <div className='github'>
       <ProfileInfo profile={profileInfo} />
-      <ListRepositories repos={repositories}/>
+      <div>
+        <ListRepositories repos={repositories}/>
+        <div className='activity'>
+          <p>Actividad reciente:</p>
+          <img src="https://ghchart.rshah.org/58a6ff/SantiagoLeza" alt="SantigoLeza's activity"></img>
+        </div>
+      </div>
     </div>
 
   )

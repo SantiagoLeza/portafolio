@@ -4,3 +4,13 @@
     height: 100%;
 }
 
+.activity > img{
+    width: 90%;
+    height: fit-content;
+    margin: 10px;
+}
+
+.activity > p{
+    margin-left: 10%;
+    font-size: calc(1vw + 10px);
+}
