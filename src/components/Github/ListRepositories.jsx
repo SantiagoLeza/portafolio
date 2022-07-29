@@ -1,8 +1,17 @@
 import React from 'react'
+import Repo from './Repo'
+import './ListRepositories.css'
 
-function ListRepositories() {
+function ListRepositories({repos}) {
+  
   return (
-    <div>ListRepositories</div>
+    <div className='list'>
+      {
+        repos.map(repo => (
+          <Repo repo={repo} key={repo.id} />
+        ))
+      }
+    </div>
   )
 }
 

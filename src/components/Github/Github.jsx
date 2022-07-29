@@ -5,20 +5,30 @@ import './Github.css'
 
 function Github() {
 
-  const [profileData, setProfileData] = useState(null);
+  const [profileInfo, setProfileInfo] = useState({})
+  const [repositories, setRepositories] = useState([])
 
   useEffect(() => {
     fetch('https://api.github.com/users/SantiagoLeza')
       .then(response => response.json())
       .then(data => {
-        setProfileData(data);
+        setProfileInfo(data)
       })
-  }, [setProfileData])
+  }, [])
+
+  useEffect(() => {
+    fetch('https://api.github.com/users/SantiagoLeza/repos')
+
+      .then(response => response.json())
+      .then(data => {
+        setRepositories(data)
+      })
+  }, [])
 
   return (
     <div className='github'>
-      <ProfileInfo profile={profileData} />
-      <ListRepositories />
+      <ProfileInfo profile={profileInfo} />
+      <ListRepositories repos={repositories}/>
     </div>
 
   )

@@ -42,8 +42,6 @@ function Curriculum() {
     }
 
     clearInterval(interval);
-
-    console.log('deleted');
   }
 
   const checkLoad = () => {
@@ -59,6 +57,9 @@ function Curriculum() {
           onDocumentLoad={checkLoad()}
           />
       </Worker>
+      {
+        checkLoad()
+      }
     </div>
   )
 }

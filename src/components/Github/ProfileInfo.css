@@ -10,6 +10,7 @@
     margin: 25px;
     max-width: 30vw;
     min-width: 200px;
+    height: fit-content;
 }
 
 .profileInfo > *{
@@ -28,10 +29,33 @@ h3 {
     font-size: calc(1.5vw + 1vh);
 }
 
-p{
+.profile-bio{
     font-size: calc(1vw + 20px);
     overflow-wrap: break-word;
-    text-align: justify;
+    text-align: center;
     margin-left: 25px;
     margin-right: 25px;
+}
+
+.profile-login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(1vw + 20px);
+    margin-left: 25px;
+    margin-right: 25px;
+    color: black;
+    text-decoration: none;
+    background-color: #70fcfc;
+    border-radius: 15px;
+    width: 50%;
+    min-width: fit-content;
+}
+
+.verGH{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    font-size: calc(1vw + 10px);
 }
