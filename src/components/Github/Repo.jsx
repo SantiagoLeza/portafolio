@@ -5,7 +5,7 @@ function Repo({repo}) {
   
     return (
     <div className='repo'>
-        <a className='a' href={repo.html_url} target='_blank' rel="noreferrer">
+        <a className='card' href={repo.html_url} target='_blank' rel="noreferrer">
             <div className='repo-visibility'><p>{repo.visibility}</p></div>
             <p className='repo-name'>{repo.name}</p>
             <p className='repo-description'>{repo.description}</p>
