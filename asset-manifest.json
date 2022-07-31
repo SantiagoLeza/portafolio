@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/portafolio/static/css/main.d469ae7e.css",
+    "main.js": "/portafolio/static/js/main.19b43772.js",
+    "static/media/CV.pdf": "/portafolio/static/media/CV.cb4969d588785648a9e8.pdf",
+    "static/media/cara.png": "/portafolio/static/media/cara.6391c9b4e7ca1c893388.png",
+    "index.html": "/portafolio/index.html",
+    "main.d469ae7e.css.map": "/portafolio/static/css/main.d469ae7e.css.map",
+    "main.19b43772.js.map": "/portafolio/static/js/main.19b43772.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d469ae7e.css",
+    "static/js/main.19b43772.js"
+  ]
+}
