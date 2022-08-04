@@ -7,3 +7,9 @@
     justify-content: left;
     align-items: top;
 }
+
+@media only screen and (max-width: 1080px) {
+    .list{
+        flex-direction: column;
+    }
+}
