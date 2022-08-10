@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import ListRepositories from './ListRepositories'
 import ProfileInfo from './ProfileInfo'
 import './Github.css'
